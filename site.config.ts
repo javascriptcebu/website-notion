@@ -49,22 +49,23 @@ export default siteConfig({
     '/ideas': 'ab4c593485a04708aef5aa418bdac513',
     '/meeting-notes': '7cf10a64c4c64281845df4adc45a1f95',
     '/tasks': '7e7678d78abd4bde8be7226af06c3487',
-    '/official-links': 'cb911533889445dfa31333f69e65eb0e'
+    '/official-links': 'cb911533889445dfa31333f69e65eb0e',
+    '/events': 'f9d73a52a4424b9f9a80c9520d5bef8f'
   },
   // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Events',
+      pageId: 'f9d73a52a4424b9f9a80c9520d5bef8f'
+    },
+    {
+      title: 'Official Links',
+      pageId: 'cb911533889445dfa31333f69e65eb0e'
+    }
+  ]
 })
