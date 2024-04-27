@@ -1,6 +1,7 @@
 import * as React from 'react'
 
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
+import { FaFacebook } from '@react-icons/all-files/fa/FaFacebook'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
@@ -36,7 +37,9 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright {currentYear} {config.author}</div>
+      <div className={styles.copyright}>
+        Copyright {currentYear} {config.author}
+      </div>
 
       <div className={styles.settings}>
         {hasMounted && (
@@ -53,6 +56,18 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div className={styles.social}>
+        {config.twitter && (
+          <a
+            className={styles.twitter}
+            href={`https://www.facebook.com/${config.twitter}`}
+            title={`Facebook @${config.twitter}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaFacebook />
+          </a>
+        )}
+
         {config.twitter && (
           <a
             className={styles.twitter}
