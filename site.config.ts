@@ -66,6 +66,10 @@ export default siteConfig({
     {
       title: 'Official Links',
       pageId: 'cb911533889445dfa31333f69e65eb0e'
+    },
+    {
+      title: 'Blog',
+      url: 'https://blog.jscebu.org'
     }
   ]
 })
