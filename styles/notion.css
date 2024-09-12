@@ -210,6 +210,15 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .notion-page-cover-wrapper,
+  .notion-page-cover-wrapper span,
+  .notion-page-cover-wrapper img {
+    max-width: 1200px !important;
+    border-radius: 8px;
+  }
+}
+
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
   justify-content: center;
   padding: 2em;
