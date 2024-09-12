@@ -23,6 +23,7 @@ export default siteConfig({
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
+  medium: 'javascript-cebu',
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -50,7 +51,8 @@ export default siteConfig({
     '/meeting-notes': '7cf10a64c4c64281845df4adc45a1f95',
     '/tasks': '7e7678d78abd4bde8be7226af06c3487',
     '/official-links': 'cb911533889445dfa31333f69e65eb0e',
-    '/events': 'f9d73a52a4424b9f9a80c9520d5bef8f'
+    '/events': 'f9d73a52a4424b9f9a80c9520d5bef8f',
+    '/iniatives': '819d30e927734d76bd0903483b5d9171'
   },
   // pageUrlOverrides: null,
 

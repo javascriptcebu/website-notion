@@ -19,18 +19,7 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 
-import { bootstrap } from '@/lib/bootstrap-client'
-import {
-  fathomConfig,
-  fathomId,
-  isServer,
-  posthogConfig,
-  posthogId
-} from '@/lib/config'
-
-if (!isServer) {
-  bootstrap()
-}
+import { fathomConfig, fathomId, posthogConfig, posthogId } from '@/lib/config'
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
