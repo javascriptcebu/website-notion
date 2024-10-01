@@ -52,7 +52,8 @@ export default siteConfig({
     '/tasks': '7e7678d78abd4bde8be7226af06c3487',
     '/official-links': 'cb911533889445dfa31333f69e65eb0e',
     '/events': 'f9d73a52a4424b9f9a80c9520d5bef8f',
-    '/iniatives': '819d30e927734d76bd0903483b5d9171'
+    '/iniatives': '819d30e927734d76bd0903483b5d9171',
+    '/community-projects': '111996739a8980a7b76cc81009000bbd'
   },
   // pageUrlOverrides: null,
 
